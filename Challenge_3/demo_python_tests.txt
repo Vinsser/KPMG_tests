@@ -1,0 +1,19 @@
+PS C:\..\KPMG_tests\Challenge_3> python .\demo_python.py
+Json Object:  {'b': {'x': {'y': {'z': 'a'}}}}
+Keys:  b/x/y
+Value : {'z': 'a'}
+
+PS C:\..\KPMG_tests\Challenge_3> python .\demo_python.py
+Json Object:  {'b': {'x': {'y': {'z': 'a'}}}}
+Keys:  b/x/y/z
+Value : a
+
+PS C:\..\KPMG_tests\Challenge_3> python .\demo_python.py
+Json Object:  {'k': {'t': {'f': {'d': 'c'}}}}
+Keys:  k/t/f/d
+Value : c
+
+PS C:\..\KPMG_tests\Challenge_3> python .\demo_python.py
+Json Object:  {'k': {'t': {'f': {'d': 'c'}}}}
+Keys:  k/t
+Value : {'f': {'d': 'c'}}

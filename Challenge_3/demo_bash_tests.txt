@@ -1,0 +1,19 @@
+$:.../KPMG_tests/Challenge_3$ bash demo_bash.sh 
+Json:  {"b":{"x":{"y":{"z":"a"}}}}
+Keys:  b/x/y/z
+Value:  "a"
+
+$:.../KPMG_tests/Challenge_3$ bash demo_bash.sh 
+Json:  {"b":{"x":{"y":{"z":"a"}}}}
+Keys:  b/x/y
+Value:  { "z": "a" }
+
+$:.../KPMG_tests/Challenge_3$ bash demo_bash.sh 
+Json:  {"a":{"b":{"c":"d"}}}
+Keys:  a/b/c
+Value:  "d"
+
+$:.../KPMG_tests/Challenge_3$ bash demo_bash.sh 
+Json:  {"a":{"b":{"c":"d"}}}
+Keys:  a/b
+Value:  { "c": "d" }
